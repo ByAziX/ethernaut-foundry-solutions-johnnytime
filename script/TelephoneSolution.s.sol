@@ -13,7 +13,8 @@ contract IntermidiaryContract {
 
 contract TelephoneSolution is Script {
 
-    Telephone public telephoneInstance = Telephone(0x1d2d01Db7aAe83081BDfff7844C8030f2d51a5AB);
+    Telephone public telephoneInstance = Telephone(0x5a99736fE159B0f1E35386Bf4660Bc47F9b9024D
+);
 
     function run() external {
         vm.startBroadcast(vm.envUint("PRIVATE_KEY"));
