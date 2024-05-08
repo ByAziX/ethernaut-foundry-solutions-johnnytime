@@ -18,7 +18,7 @@ contract Player {
 
 contract CoinFlipSolution is Script {
 
-    CoinFlip public coinflipInstance = CoinFlip(0xcf55ff22ab6417d196A3AE81C3073A33aA310037);
+    CoinFlip public coinflipInstance = CoinFlip(0x651458ce5A9982216EE5C3c34653849Ceb6562b5);
 
     function run() external {
         vm.startBroadcast(vm.envUint("PRIVATE_KEY"));
